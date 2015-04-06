@@ -1,0 +1,13 @@
+<template name="feedItem">
+
+	<div class="post">
+		<div class="post-content">
+
+			<h3><a href="{{pathFor 'feedPage'}}">{{title}}</a></h3>
+			<p><span>{{domain}}</span></p>
+			<p>{{intro}}</p>
+
+		</div>
+		<a href="{{pathFor 'feedPage'}}">Read full item</a>
+	</div>
+</template>
